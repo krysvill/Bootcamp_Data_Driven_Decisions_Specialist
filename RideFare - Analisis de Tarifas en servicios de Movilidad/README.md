@@ -1,18 +1,41 @@
-# 🔍 Análisis Exploratorio de Tarifas en Servicios de Movilidad
-## Módulo: Python & Análisis Exploratorio de Datos
-Análisis EDA sobre más de 693.000 registros de viajes (Uber/Lyft) cruzados con datos meteorológicos, identificando los factores que determinan el precio del servicio.
+# 🚕 RideFare — Análisis de Tarifas en Servicios de Movilidad
 
-Highlights técnicos:
+## 🎯 Objetivo
+Realizar un análisis exploratorio (EDA) sobre datos de viajes y condiciones 
+climáticas para identificar los factores que influyen en el precio, detectar 
+patrones de demanda y sentar las bases para futuros modelos predictivos.
 
-Merge de dos datasets por zona geográfica y franja horaria (redondeo de epoch timestamp)
-Imputación de precios faltantes segmentada por rangos de distancia con medianas por intervalo
-Detección y tratamiento de nulos, duplicados y conversión de timestamps (segundos y milisegundos)
+## 🛠️ Herramientas
+- Python (Pandas, Matplotlib, Seaborn)
+- Jupyter Notebook
 
-Hallazgos clave:
+## 📁 Datasets
+- **rides:** ~693.071 registros con distancia, tipo de servicio, precio, 
+  timestamp, origen/destino y multiplicador de tarifa dinámica
+- **weather:** ~6.276 registros con temperatura, lluvia, humedad, 
+  nubosidad, presión y viento
 
-📍 La distancia es el principal predictor del precio
-🌧️ La lluvia + baja visibilidad incrementa el precio hasta un 10%
-⏰ Los precios son más altos en horas pico (mañana y tarde-noche)
-💰 Lyft presenta mayor variabilidad de precios que Uber ($17.35 vs $15.72 promedio)
+## 🔍 Proceso
+1. Exploración inicial: dimensiones, tipos de datos y estadísticas descriptivas
+2. Evaluación de calidad: nulos, duplicados y conversión de tipos
+3. Análisis de distribuciones: distancia, precio y tipo de servicio
+4. Cruce de datasets: relación entre clima y precio
+5. Visualizaciones: heatmap de correlaciones, histogramas, boxplots y scatterplots
 
-Python Pandas NumPy Matplotlib Seaborn EDA
+## 💡 Hallazgos principales
+- 📍 La mayoría de viajes son cortos, confirmando uso urbano del servicio
+- 💰 Lyft presenta precios más altos y variables que Uber ($17.35 vs $15.72 promedio)
+- ⏰ Los precios son más altos en horas pico (mañana y tarde-noche)
+- 🌧️ La lluvia combinada con baja visibilidad incrementa el precio hasta un 10%
+- 📈 Existe relación positiva clara entre distancia y precio
+
+## 📌 Conclusión
+La distancia, la hora del día y las condiciones climáticas son los principales 
+determinantes del precio. Estos hallazgos permiten diseñar estrategias de 
+pricing dinámico, optimizar la oferta de vehículos y planificar promociones 
+en horarios de baja demanda.
+
+## 🔮 Próximos pasos
+- Modelo predictivo de precios (distancia + tipo de servicio + clima)
+- Análisis geográfico con heatmaps de origen/destino
+- Análisis de elasticidad de demanda por categoría
