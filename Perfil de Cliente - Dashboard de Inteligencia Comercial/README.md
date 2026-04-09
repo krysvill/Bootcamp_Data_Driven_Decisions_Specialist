@@ -21,4 +21,6 @@ Power BI DAX Power Query Python Pandas NumPy
 
 ![Marcador de Preferencia de Compra](https://github.com/krysvill/Bootcamp_Data_Driven_Decisions_Specialist/blob/7a68d4de43f361a003f8dd0873aa909cc5f6df87/Perfil%20de%20Cliente%20-%20Dashboard%20de%20Inteligencia%20Comercial/Inicio%20Preferencia%20Compra.png?raw=true)
 
+- 👥 Respuestas a Campañas
+
 ![Marcador de Campañas](https://github.com/krysvill/Bootcamp_Data_Driven_Decisions_Specialist/blob/7a68d4de43f361a003f8dd0873aa909cc5f6df87/Perfil%20de%20Cliente%20-%20Dashboard%20de%20Inteligencia%20Comercial/Inicio%20Campa%C3%B1as.png?raw=true)
