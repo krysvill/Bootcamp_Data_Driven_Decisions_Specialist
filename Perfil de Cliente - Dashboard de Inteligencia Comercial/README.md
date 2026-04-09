@@ -1,5 +1,7 @@
 # 📈 Dashboar de Inteligencia Comercial
 ```Módulo Data Visualization```
-![alt text](MarcadorPerfilCliente1.png)
-![alt text](MarcadorPerfilCliente2.png)
-![alt text](MarcadorPrefenciasCompra.png)
+
+![alt text](InicioPerfilCliente1.png)
+![alt text](InicioPerfilCliente2.png)
+![alt text](InicioPreferenciaCompra.png)
+![alt text](InicioCampañas.png)
