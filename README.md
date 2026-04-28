@@ -42,7 +42,7 @@ aplicado con datos reales, presentado de forma ejecutiva ante un panel de mentor
 
 **👤 Perfil de Cliente — Dashboard Comercial:** 
 
-[![repo](https://img.shields.io/badge/PerfilCliente--Dashboard_Comercial-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/krysvill/Bootcamp_Data_Driven_Decisions_Specialist/tree/b3ec4d3b40d86078e0a0062d0ced85635f102468/Perfil%20de%20Cliente%20-%20Dashboard%20de%20Inteligencia%20Comercial)
+[![repo](https://img.shields.io/badge/PerfilCliente--Dashboard_Comercial-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/krysvill/Bootcamp_Data_Driven_Decisions_Specialist/tree/986fda8d6b2d997c6d93bedbcb7254f65d883be4/Perfil%20de%20Cliente%20-%20Dashboard%20de%20Inteligencia%20Comercial)
 
 - Desarrollé un dashboard interactivo en Power BI de 4 páginas temáticas para analizar rentabilidad de clientes, perfil demográfico y comportamiento de compra por canal (tienda, web y catálogo).
 - Realicé limpieza y transformación del dataset en Python (Pandas, NumPy): tratamiento de nulos, duplicados, conversión de tipos y creación de variables derivadas como gasto total, segmentos de ingreso e indicadores de actividad.
