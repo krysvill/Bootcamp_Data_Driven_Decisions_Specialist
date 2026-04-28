@@ -1,4 +1,4 @@
-# 📈 Dashboar de Inteligencia Comercial - Segmentación y Comportamiento de Compra
+# 📈 Dashboard de Inteligencia Comercial - Segmentación y Comportamiento de Compra
 ```Módulo Data Visualization``` ```Power BI``` ```Python``` ```ETL``` ```DAX``` 
 
 Dashboard interactivo de 4 páginas temáticas en Power BI para analizar la rentabilidad de clientes, su perfil demográfico y comportamiento de compra por canal.
